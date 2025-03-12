@@ -1,16 +1,8 @@
 #include <stdio.h>
-
-int main()
+#define n 10
+int main(int val)
 {
-     int n, i,j,count=1;
-    printf( "enter the row matrix:");
-    scanf("%d",&n);
-    for( i=1; i<=n; i++){
-        for( j=1; j<=i; j++){
-            printf(" %d ",count++);
-        
-        }
-        printf("\n");
-    }
-      return 0;
+    if (val<=n&& printf("%d",val)&& main(val+1));
+
+    return 0;
 }
